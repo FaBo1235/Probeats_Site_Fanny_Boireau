@@ -40,7 +40,7 @@ body {
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #292a29;
+    background-color: #292a2d;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -69,7 +69,7 @@ body {
   
   .recherche li a {
     text-decoration: none;
-    color: #333;
+    color: #292a2d;
     font-size: 18px;
     display: flex;
     align-items: center;
@@ -104,37 +104,11 @@ body {
   
   .menu li a {
     text-decoration: none;
-    color: #333;
+    color: #292a2d;
     font-size: 18px;
     padding: 8px;
     display: flex;
     align-items: center;
-  }
-
-
-  .submenu {
-    display: none;
-    position: absolute;
-    background: #fff;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    top: 40px;
-    left: 0;
-    min-width: 150px;
-    z-index: 1000;
-    flex-direction: column;
-  }
-  
-  .submenu li a {
-    padding: 10px;
-    color: #333;
-  }
-  
-  .submenu li a:hover {
-    background-color: #f0f0f0;
-  }
-  
-  .dropdown:hover .submenu {
-    display: flex;
   }
 
 

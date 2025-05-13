@@ -13,11 +13,6 @@ h1{
     color : #B6A299
 }
 
-.para{
-    text-indent: 20px;
-    text-align: justify;
-}
-  
   
 .bottom {
     display: flex;
@@ -33,7 +28,7 @@ h1{
   
 .recherche li a {
     text-decoration: none;
-    color: #333;
+    color: #292A2D;
     font-size: 18px;
     display: flex;
     align-items: center;
@@ -68,11 +63,83 @@ h1{
   
 .menu li a {
     text-decoration: none;
-    color: #333;
+    color: #292A2D;
     font-size: 18px;
     padding: 8px;
     display: flex;
     align-items: center;
+}
+
+.produit-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgb(41, 42, 45);
+    border-radius: 10px;
+    overflow: hidden;
+}
+  
+.produit-image img {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+}
+  
+.produit-details {
+    flex: 1;
+    padding: 30px;
+}
+  
+.produit-details h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #292A2D;
+}
+  
+.description {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #292A2D;
+}
+  
+.prix {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #009099;
+}
+  
+.btn-achat {
+    display: inline-block;
+    background-color: #7EDCE1;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+  
+.btn-achat:hover {
+    background-color: #B6A299;
+}
+  
+.caracteristiques {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+  
+.caract {
+    flex: 1 1 1;
+    background: #ffffff;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
 }
 
 

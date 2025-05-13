@@ -33,7 +33,7 @@ h1{
   
 .recherche li a {
     text-decoration: none;
-    color: #333;
+    color: #292A2D;
     font-size: 18px;
     display: flex;
     align-items: center;
@@ -68,37 +68,11 @@ h1{
   
 .menu li a {
     text-decoration: none;
-    color: #333;
+    color: #292A2D;
     font-size: 18px;
     padding: 8px;
     display: flex;
     align-items: center;
-}
-
-
-.submenu {
-    display: none;
-    position: absolute;
-    background: #fff;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    top: 40px;
-    left: 0;
-    min-width: 150px;
-    z-index: 1000;
-    flex-direction: column;
-}
-  
-.submenu li a {
-    padding: 10px;
-    color: #333;
-}
-  
-.submenu li a:hover {
-    background-color: #f0f0f0;
-}
-  
-.dropdown:hover .submenu {
-    display: flex;
 }
 
 
