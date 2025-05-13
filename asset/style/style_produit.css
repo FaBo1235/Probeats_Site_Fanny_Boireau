@@ -76,32 +76,6 @@ h1{
 }
 
 
-.submenu {
-    display: none;
-    position: absolute;
-    background: #fff;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    top: 40px;
-    left: 0;
-    min-width: 150px;
-    z-index: 1000;
-    flex-direction: column;
-}
-  
-.submenu li a {
-    padding: 10px;
-    color: #333;
-}
-  
-.submenu li a:hover {
-    background-color: #f0f0f0;
-}
-  
-.dropdown:hover .submenu {
-    display: flex;
-}
-
-
 footer{
     background-color: #41B4BB;
     text-align: center;

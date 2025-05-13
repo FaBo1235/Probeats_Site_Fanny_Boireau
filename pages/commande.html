@@ -17,7 +17,7 @@
          <nav class="navbar">
              <div class="">
                 <ul class="menu">
-                    <li><a target="_parent" href="../index.html"></a></li>
+                    <li><a target="_parent" href="../index.html">Accueil</a></li>
                     <li><a target="_parent" href="../pages/produit.html">Produits</a></li>
                     <li><a target="_parent" href="../pages/A_Propos.html">À propos</a></li>
                     <li><a target="_parent" href="../pages/assistance.html">Assistance</a></li>
@@ -33,6 +33,40 @@
             </div> 
          </nav>
     </header>
+    <main>
+        <div class="container">
+            <h1>Formulaire de commande</h1>
+            <form action="" method="post"></form>
+                <label for="nom">Nom Prénom</label>
+                <input type="text" id="nom" name="nom" required>
+
+                <label for="email">Adresse Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="adresse">Adresse de livraison</label>
+                <textarea id="adresse" name="adresse" required></textarea>
+
+                <label for="produit">Produit</label>
+                <select id="produit" name="produit">
+                    <option value="casque">Casque</option>
+                    <option value="enceinte">Enceinte</option>
+                    <option value="autre">Autre</option>
+                </select>
+
+                <label for="quantite">Quantité</label>
+                <input type="number" id="quantite" name="quantite" min="1" required>
+
+                <label for="paiement">Mode de paiement</label>
+                <select id="paiement" name="paiement">
+                    <option value="carte">Carte bancaire</option>
+                    <option value="paypal">PayPal</option>
+                    <option value="virement">Virement bancaire</option>
+                </select>
+
+                <button type="submit">Valider la commande</button>
+            </form>
+        </div>
+    </main>
         
     </body>
     <footer>
