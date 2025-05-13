@@ -8,6 +8,7 @@ body {
   header{
     background-color: #41B4BB;
   }
+
   
   .galerie {
     max-width: 700px;
@@ -19,6 +20,8 @@ body {
     position: relative;
     margin: 0 auto 20px auto;
     max-width: 100%;
+    border: #292a29;
+    border-radius: 1rem;
   }
   
   .im-container img {
@@ -76,11 +79,69 @@ body {
     margin-right: 5px;
   }
 
+  .menu{
+    list-style-type: none;
+  }
+
+  .navbar {
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .menu li {
+    position: relative;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+  }
 
 
+  .submenu {
+    display: none;
+    position: absolute;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    top: 40px;
+    left: 0;
+    min-width: 150px;
+    z-index: 1000;
+    flex-direction: column;
+  }
+  
+  .submenu li a {
+    padding: 10px;
+    color: #333;
+  }
+  
+  .submenu li a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .dropdown:hover .submenu {
+    display: flex;
+  }
 
 
   footer{
     background-color: #41B4BB;
+    text-align: center;
+    display: flex;
+    justify-content: center
   }
   
